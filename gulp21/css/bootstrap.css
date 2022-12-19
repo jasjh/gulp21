@@ -12171,7 +12171,9 @@ textarea.form-control-lg {
     font-family: 'Inter', sans-serif;
     font-size: 20pt;
     margin-top: 15px;
-    float: right;
+    top: 8px;
+  right: 16px;
+  padding-left: 23px;
   }
   .card btn {
     padding: 10px;
@@ -12185,6 +12187,15 @@ textarea.form-control-lg {
   color: black;
 }
 h5 {
-  font-size: 19pt;
+  font-size: 25pt;
   font-family: 'Inter', sans-serif;
 }
+@media screen and (max-width: 700px) {
+p {
+  font-size: 9pt;
+}
+
+@media screen and (max-width: 700px) {
+  .card-title {
+    font-size: 22pt;
+  }
